@@ -14,10 +14,11 @@ It doesn't even have a blog. The UI/UX is also suboptimal. I wanted to work with
 ### How to visit
 This projects has to environments up and running:
 
-**Main/Production deployment**: [Prod deployment]() and  
+**Main/Production deployment**: [Prod deployment](https://new-website-2-0.vercel.app) and  
 **Dev/Testing deployment**: [Test deployment]().
 
-Here are the links:
+Here are the links:  
+https://new-website-2-0.vercel.app
 
 ### How to run locally
 1. Clone this repository with your authenticated GitHub user
