@@ -15,10 +15,10 @@ It doesn't even have a blog. The UI/UX is also suboptimal. I wanted to work with
 This projects has to environments up and running:
 
 **Main/Production deployment**: [Prod deployment](https://new-website-2-0.vercel.app) and  
-**Dev/Testing deployment**: [Test deployment]().
+**Dev/Testing deployment**: [Test deployment](https://new-website-2-0-6uwahiudf-ansbach-grizzlies.vercel.app).
 
 Here are the links:  
-https://new-website-2-0.vercel.app
+https://new-website-2-0.vercel.app and https://new-website-2-0-6uwahiudf-ansbach-grizzlies.vercel.app (second one is dev)
 
 ### How to run locally
 1. Clone this repository with your authenticated GitHub user
