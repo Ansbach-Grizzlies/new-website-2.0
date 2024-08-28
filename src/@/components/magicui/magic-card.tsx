@@ -4,6 +4,7 @@ import React, { useCallback, useEffect } from "react";
 import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
 
 import { cn } from "../../lib/utils";
+import {BorderBeam} from "./border-beam";
 
 export interface MagicCardProps extends React.HTMLAttributes<HTMLDivElement> {
   gradientSize?: number;
@@ -44,7 +45,7 @@ export function MagicCard({
     <div
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      style={{ backgroundColor: "#00308F" }}
+      style={{ backgroundColor: "#ffffff" }}
       className={cn(
         "group relative flex size-full overflow-hidden rounded-xl bg-neutral-100 dark:bg-neutral-900 border text-black dark:text-white",
         className,
@@ -60,6 +61,7 @@ export function MagicCard({
           opacity: gradientOpacity,
         }}
       />
+      <BorderBeam size={250} duration={7} delay={9} />
     </div>
   );
 }
